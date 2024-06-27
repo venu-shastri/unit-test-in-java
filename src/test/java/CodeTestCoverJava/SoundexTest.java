@@ -15,3 +15,4 @@ public class SoundexTest {
     public void testSingleCharacter() {
          assertTrue("A000", Soundex.generateSoundex("A"));
     }
+}
