@@ -1,3 +1,4 @@
+package CodeTestForJava;
 public class Soundex {
 
     public static String generateSoundex(String name) {
