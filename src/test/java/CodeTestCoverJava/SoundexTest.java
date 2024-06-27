@@ -8,11 +8,11 @@ public class SoundexTest {
 
     @Test
     public void testEmptyString() {
-         assertTrue("", Soundex.generateSoundex(""));
+         assertTrue(Soundex.generateSoundex("")=="");
     }
 
     @Test
     public void testSingleCharacter() {
-         assertTrue("A000", Soundex.generateSoundex("A"));
+         assertTrue(Soundex.generateSoundex("A")=="A000");
     }
 }
