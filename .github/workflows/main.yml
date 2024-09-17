@@ -29,10 +29,5 @@ jobs:
       run: $HOME/.local/bin/lizard --CCN 30 src/main/
       
     - name: Build and Generate coverage
-      run: mvn test jacoco:report
-    - name: Upload coverage
-      uses: actions/upload-artifact@v4
-      with:
-        name: coverage
-        path: ./target/site/jacoco
-        retention-days: 21
+      run: mvn test 
+    
