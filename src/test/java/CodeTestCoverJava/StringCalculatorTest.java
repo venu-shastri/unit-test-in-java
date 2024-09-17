@@ -8,7 +8,8 @@ public class StringCalculatorTest {
 
     @Test
     public void testEmptyString() {
-       //  assertTrue(Soundex.generateSoundex("")=="");
+        StringCalculator  objUnderTest=new StringCalculator();
+        assertTrue(objUnderTest.add("")=="");
     }
 
   
