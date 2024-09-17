@@ -1,4 +1,4 @@
-package com.tdd;
+package CodeTestCoverJava;
 
 public class StringCalculator {
 
