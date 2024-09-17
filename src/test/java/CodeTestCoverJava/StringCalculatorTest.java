@@ -11,8 +11,5 @@ public class StringCalculatorTest {
        //  assertTrue(Soundex.generateSoundex("")=="");
     }
 
-    @Test
-    public void testSingleCharacter() {
-         //assertTrue(Soundex.generateSoundex("A")=="A000");
-    }
+  
 }
